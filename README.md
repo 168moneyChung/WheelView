@@ -17,27 +17,26 @@ Features
 * 支持滾輪對話框
 * 支持滾輪選中項點擊事件
 
-
-| void **setWheelAdapter**(BaseWheelAdapter<T> adapter) | 設置滾輪數據源適配器（required） |
-| void **setWheelData**(List<T> list) | 設置滾輪數據（required） |
-| void **setLoop**(boolean loop) | 設置滾輪是否循環滾動 |
-| void **setWheelSize**(int wheelSize) | 設置滾輪個數 |
-| void **setSkin**(Skin skin) | 設置皮膚風格 |
-| Skin **getSkin**() | 獲得皮膚風格 |
-| void **setStyle**(WheelViewStyle style) | 設置滾輪樣式 |
-| WheelViewStyle **getStyle**() | 獲得滾輪樣式 |
-| void **setWheelClickable**(boolean clickable) | 設置滾輪選中項是否可點擊 |
-| void **setSelection**(final int selection) | 設置滾輪位置 |
-| int **getSelection**() | 獲取滾輪位置 |
-| void **join**(WheelView wheelView) | 連接副WheelView（聯動設置） |
-| void **joinDatas**(HashMap<String, List<T>> map) | 副WheelView數據（聯動設置） |
-| int **getCurrentPosition**() | 獲取當前滾輪位置 |
-| T **getSelectionItem**() | 獲取當前滾輪位置的數據 |
-| void **setExtraText**(String text, int textColor, int textSize, int margin) | 設置選中行附加文本 |
-| int **getWheelCount**() | 獲得滾輪數據總數 |
-| void **setOnWheelItemSelectedListener**(OnWheelItemSelectedListener<T> onWheelItemSelectedListener) | 設置滾輪滑動停止時事件，監聽滾輪選中項 |
-| void **setOnWheelItemClickListener**(OnWheelItemClickListener<T> onWheelItemClickListener) | 設置滾輪選中項點擊事件 |
-| WheelViewDialog **setDialogStyle**(int color) | 設置Dialog外觀顏色 |
+<li>| void **setWheelAdapter**(BaseWheelAdapter<T> adapter) | 設置滾輪數據源適配器（required） |</li>
+<li>| void **setWheelData**(List<T> list) | 設置滾輪數據（required） |</li>
+<li>| void **setLoop**(boolean loop) | 設置滾輪是否循環滾動 |</li>
+<li>| void **setWheelSize**(int wheelSize) | 設置滾輪個數 |</li>
+<li>| void **setSkin**(Skin skin) | 設置皮膚風格 |</li>
+<li>| Skin **getSkin**() | 獲得皮膚風格 |</li>
+<li>| void **setStyle**(WheelViewStyle style) | 設置滾輪樣式 |</li>
+<li>| WheelViewStyle **getStyle**() | 獲得滾輪樣式 |</li>
+<li>| void **setWheelClickable**(boolean clickable) | 設置滾輪選中項是否可點擊 |</li>
+<li>| void **setSelection**(final int selection) | 設置滾輪位置 |</li>
+<li>| int **getSelection**() | 獲取滾輪位置 |</li>
+<li>| void **join**(WheelView wheelView) | 連接副WheelView（聯動設置） |</li>
+<li>| void **joinDatas**(HashMap<String, List<T>> map) | 副WheelView數據（聯動設置） |</li>
+<li>| int **getCurrentPosition**() | 獲取當前滾輪位置 |</li>
+<li>| T **getSelectionItem**() | 獲取當前滾輪位置的數據 |</li>
+<li>| void **setExtraText**(String text, int textColor, int textSize, int margin) | 設置選中行附加文本 |</li>
+<li>| int **getWheelCount**() | 獲得滾輪數據總數 |</li>
+<li>| void **setOnWheelItemSelectedListener**(OnWheelItemSelectedListener<T> onWheelItemSelectedListener) | 設置滾輪滑動停止時事件，監聽滾輪選中項 |</li>
+<li>| void **setOnWheelItemClickListener**(OnWheelItemClickListener<T> onWheelItemClickListener) | 設置滾輪選中項點擊事件 |</li>
+<li>| WheelViewDialog **setDialogStyle**(int color) | 設置Dialog外觀顏色 |</li>
 
 History
 --
