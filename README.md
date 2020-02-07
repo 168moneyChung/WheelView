@@ -1,3 +1,6 @@
+# CycleWheelView
+自定義可迴圈的滾動選擇器
+
 # WheelView
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WheelView-green.svg?style=true)](https://android-arsenal.com/details/1/3853 ) [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14 )
